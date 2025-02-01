@@ -1,0 +1,42 @@
+{
+    "_id": "66c6d9a4b282886f6763fdd7",
+    "erpInstanceId": "410808f6-863f-4b20-a20f-ab4b509b0ce9",
+    "command": "DATA_EXTRACTION",
+    "status": "COMPLETED",
+    "scheduledAt": "2024-08-20T00:25:00.000Z",
+    "resultData": {
+        "s3Details": [
+            {
+                "url": "https://storage.clear.in/v1/ap-south-1/one-integration-staging/7f1481df-e73f-4c3f-b590-c15e08f617d5/410808f6-863f-4b20-a20f-ab4b509b0ce9/2024/AUGUST/22/66c6d9a4b282886f6763fdd7/data_extraction/7f1481df-e73f-4c3f-b590-c15e08f617d5/data.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240822T062514Z&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Expires=3599&X-Amz-Credential=AKIATGEOL5AHTEZO5JVG%2F20240822%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=8ab7a36cd5caf2c533bae800df2745d7758cef9f38def29beb3edf60504602d1"
+            }
+        ],
+        "_class": "in.clear.oneintegration.http.model.CommandQueue$DataExtractionResult"
+    },
+    "createdAt": "2024-08-22T06:24:36.961Z",
+    "timeState": [
+        {
+            "tableName": "CUSTINVOICEJOUR",
+            "fieldName": "modifieddatetime",
+            "fromDateTime": "2024-08-12T00:15:00.000Z",
+            "toDateTime": "2024-08-20T00:15:00.000Z"
+        },
+        {
+            "tableName": "VENDINVOICEJOUR",
+            "fieldName": "modifieddatetime",
+            "fromDateTime": "2024-08-12T00:15:00.000Z",
+            "toDateTime": "2024-08-20T00:15:00.000Z"
+        },
+        {
+            "tableName": "INVENTTRANSFERJOUR",
+            "fieldName": "createddatetime",
+            "fromDateTime": "2024-08-12T00:15:00.000Z",
+            "toDateTime": "2024-08-20T00:15:00.000Z"
+        },
+        {
+            "tableName": "GENERALJOURNALENTRY",
+            "fieldName": "createddatetime",
+            "fromDateTime": "2024-08-12T00:15:00.000Z",
+            "toDateTime": "2024-08-20T00:15:00.000Z"
+        }
+    ]
+}
